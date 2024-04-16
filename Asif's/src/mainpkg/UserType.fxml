@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5ebd3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.UserTypeController">
+   <children>
+      <Button layoutX="150.0" layoutY="28.0" mnemonicParsing="false" onAction="#publisherButton" prefHeight="25.0" prefWidth="230.0" text="Publisher" />
+      <Button layoutX="150.0" layoutY="305.0" mnemonicParsing="false" onAction="#securityButton" prefHeight="25.0" prefWidth="230.0" text="Security Personnel " />
+      <Button layoutX="150.0" layoutY="64.0" mnemonicParsing="false" onAction="#booksellerButton" prefHeight="25.0" prefWidth="230.0" text="Book seller" />
+      <Button layoutX="149.0" layoutY="104.0" mnemonicParsing="false" onAction="#organizerButton" prefHeight="25.0" prefWidth="230.0" text="Organizer" />
+      <Button layoutX="149.0" layoutY="148.0" mnemonicParsing="false" onAction="#buyerButton" prefHeight="25.0" prefWidth="230.0" text="Buyer" />
+      <Button layoutX="150.0" layoutY="188.0" mnemonicParsing="false" onAction="#volunteerButton" prefHeight="25.0" prefWidth="230.0" text="Volunteer Coordinator" />
+      <Button layoutX="149.0" layoutY="223.0" mnemonicParsing="false" onAction="#foodstallButton" prefHeight="25.0" prefWidth="230.0" text="Food Stall Manager" />
+      <Button layoutX="149.0" layoutY="262.0" mnemonicParsing="false" onAction="#attendeesButton" prefHeight="25.0" prefWidth="230.0" text="Attendees" />
+      <Button layoutX="470.0" layoutY="344.0" mnemonicParsing="false" onAction="#backtohomeButton" text="Back to Home" />
+   </children>
+</AnchorPane>

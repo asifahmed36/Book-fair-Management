@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C9D3FA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.OrderDetailsController">
+   <children>
+      <TableView fx:id="orderTable" layoutX="118.0" layoutY="68.0" prefHeight="200.0" prefWidth="314.0" style="-fx-background-color: #F2F5FE;">
+        <columns>
+          <TableColumn fx:id="booknameColumn" prefWidth="108.0" text="Book Name" />
+          <TableColumn fx:id="priceColumn" prefWidth="76.0" text="Price" />
+            <TableColumn fx:id="quantityColumn" prefWidth="129.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Button layoutX="498.0" layoutY="341.0" mnemonicParsing="false" onAction="#backButtonOnClick" prefHeight="25.0" prefWidth="68.0" text="Back" />
+      <Button layoutX="249.0" layoutY="295.0" mnemonicParsing="false" onAction="#showButtonOnClick" prefHeight="25.0" prefWidth="75.0" text="Show" />
+   </children>
+</AnchorPane>
